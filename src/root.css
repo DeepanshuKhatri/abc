@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.blur{
+    position:relative;
+    height:100%;
+    width:100%;
+    filter:blur(8px);    
+    background-image:url('./assets/images/rain.jpeg');
+}
+.root{
+    position:absolute;
+    background-color:rgb(15, 15, 15);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    position:absolute;
+    height:400px;
+    width:800px;
+    /* background-color:white; try changing it */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.image{
+    background-image: url('./assets/images/Cloud.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    float:left;
+    background-position: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-size: cover;
+}
+img{
+    height:100px;
+    width:200px;
+}
+.data{
+    background-color: rgba(0, 0, 0, 0.5);
+    height:100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.upperinput{
+    margin-top:15px;
+    display:flex;
+
+}
+.input{
+    border:none;
+    border-bottom: 1px solid black;
+    margin:4px;
+    height:30px;
+    
+}
+.button{
+    margin:0px 4px;
+    border:none;
+    background:transparent;
+}
+.hr{
+    background-color:white;
+}
+.text{
+    color:white;
+    display:block;
+    margin-top:10px
+}
+.title{
+    color:white;
+    font-size:large;
+    margin-bottom: 10px;
+}
+.details{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+   display: flex;
+   width:80%;
+   height:80%;
+   justify-content: flex-end;
+   align-items: flex-start;
+   flex-direction: column;
+}
+
+.date{
+    color:white;
+    font-size: xx-large;
+}
+.city-name{
+    font-size:50px;
+    color:white;
+    margin-bottom: 15px;
+}
